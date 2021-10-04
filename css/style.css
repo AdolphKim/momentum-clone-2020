@@ -1,0 +1,48 @@
+* {
+  color: rgba(255, 255, 255, 0.98);
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  height: 100%;
+  text-align: center;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+input {
+  color: black;
+}
+button {
+  border: 0px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.hidden {
+  display: none;
+}
+
+h2#clock {
+  font-size: 10vw;
+}
+
+div#quotes {
+  position: absolute;
+  bottom: 5vh;
+}
+
+div#weather {
+  position: absolute;
+  top: 1vh;
+  right: 2vw;
+}

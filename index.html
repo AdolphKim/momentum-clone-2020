@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2 id="clock">00:00:00</h2>
+    <form class = "hidden" id = "login-form" action="">
+        <input 
+            maxlength="15"
+            required
+            placeholder="What is your name?"
+            type="text" >
+        <button>Login</button>
+    </form>
+    <div id = "greeting" class="hidden">
+        <h1></h1>
+    </div>
+    <form action="" id="todo-form">
+        <input type="text" placeholder="오늘의 할일은?">
+    </form>
+        <ul id ="todo-list"></ul>
+    <div id="quotes">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
+        <span></span><span></span>
+    </div>
+    <script src="js/todo.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/backImg.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
