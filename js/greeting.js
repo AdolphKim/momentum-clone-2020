@@ -7,7 +7,7 @@ const USERNAME_KEY = "username"
 const HIDDEN_CLASSNAME = "hidden"
 const savedUserName = localStorage.getItem(USERNAME_KEY);
 function paintGrettingDiv(username){
-    greetingText.innerText = `반갑습니다 ${username}님`;
+    greetingText.innerText = `Welcome , ${username}`;
     seekObject(greetingDiv);
 }
 function hideObject(object){
